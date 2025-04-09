@@ -1,11 +1,9 @@
 import { defineConfig } from 'astro/config';
-import tailwindcss from "@tailwindcss/vite";
+import tailwind from '@astrojs/tailwind'; // Importa el integrador oficial
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'http://lcqc.vercel.app'
-  vite: {
-    plugins: [tailwindcss()]
-  },
-output: 'statit',
+  site: 'https://lcqc.vercel.app', // Opcional pero recomendado
+  integrations: [tailwind()], // Configuración correcta de Tailwind
+  output: 'static' // Elimina la sección "vite" si no es estrictamente necesaria
 });
