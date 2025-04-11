@@ -21,6 +21,7 @@
       "@pages/*": [
         "pages/*"
       ],
+      "types": ["tinacms"]
     }
   }
 }
