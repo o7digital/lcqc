@@ -11,8 +11,18 @@
     "tina-dev": "tinacms dev -c \"npm run dev\""  // Nueva línea
   },
   "dependencies": {
-    // TUS DEPENDENCIAS ACTUALES (astro, tailwind, etc. NO LAS BORRES)
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/tailwind": "^6.0.2",
+    "@tailwindcss/typography": "^0.5.16",
+    "astro": "^5.3.0",
+    "lenis": "^1.1.6",
+    "swiper": "^11.1.4",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.4.5"
     "@tinacms/cli": "^1.5.14",                   // Añade esto
     "tinacms": "^1.5.6"                          // Añade esto
   }
 }
+
+
+
