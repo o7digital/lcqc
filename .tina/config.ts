@@ -1,7 +1,7 @@
 import { defineConfig } from "tinacms";
 
 export default defineConfig({
-  clientId: process.env.47bc5fe7-6887-4669-a245-f6c384126521 
+  clientId: process.env.TINA_CLIENT_ID,
   branch: "desarrollo", // Asegúrate de que coincida con tu rama
   token: process.env.TINA_TOKEN || "", // Lo configurarás en Vercel/Netlify
   build: {
