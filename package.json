@@ -18,5 +18,9 @@
     "swiper": "^11.1.4",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.4.5"
+  "tina-graphql": "^0.59.3",  
+  
+}
+
   }
 }
