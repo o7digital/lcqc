@@ -1,18 +1,19 @@
+// tina/config.ts
 import { defineConfig } from "tinacms";
-
-export default defineConfig({
+var config_default = defineConfig({
   branch: "main",
   clientId: "47bc5fe7-6887-4669-a245-f6c384126521",
-  token: "5cb6c30bbf0bf643747ce33b885d45241d9579a1", // ← lo consigues en tina.io
+  token: "5cb6c30bbf0bf643747ce33b885d45241d9579a1",
+  // ← lo consigues en tina.io
   build: {
     outputFolder: "admin",
-    publicFolder: "public",
+    publicFolder: "public"
   },
   media: {
     tina: {
       mediaRoot: "uploads",
-      publicFolder: "public",
-    },
+      publicFolder: "public"
+    }
   },
   schema: {
     collections: [
@@ -25,15 +26,18 @@ export default defineConfig({
           {
             name: "title",
             label: "Title",
-            type: "string",
+            type: "string"
           },
           {
             name: "body",
             label: "Body",
-            type: "rich-text",
-          },
-        ],
-      },
-    ],
-  },
+            type: "rich-text"
+          }
+        ]
+      }
+    ]
+  }
 });
+export {
+  config_default as default
+};
