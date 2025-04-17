@@ -2,7 +2,7 @@
 title: "Our Team"
 layout: "@layouts/LayoutTwoCol.astro"
 items:
-- image: "/team.png"
+- image: "/team.jpeg"
 
 
 ---
