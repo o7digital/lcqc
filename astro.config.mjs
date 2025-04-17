@@ -6,8 +6,7 @@ console.log('Forzando redeploy limpio desde astro.config.mjs');
 export default defineConfig({
   site: 'https://lcqc.vercel.app',
   integrations: [
-    tailwind(),
-    // tinaPlugin eliminado temporalmente para evitar errores de build
+    tailwind()
   ],
   output: 'static',
 });
