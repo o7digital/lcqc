@@ -6,7 +6,7 @@ items:
 - image: "/history/2.jpg"
 - image: "/history/3.jpeg"
 - image: "/history/4.jpg"
-- image: "/history/5.jpg"
+- image: "/history/5.jpeg"
 - image: "/history/6.jpg"
 - image: "/history/7.jpg"
 - image: "/history/8.jpg"
