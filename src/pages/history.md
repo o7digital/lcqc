@@ -4,7 +4,7 @@ layout: "@layouts/LayoutTwoCol.astro"
 items:
 - image: "/history/1.jpg"
 - image: "/history/2.jpg"
-- image: "/history/3.jpeg"
+- image: "/history/3.jpg"
 - image: "/history/4.jpg"
 - image: "/history/5.jpg"
 - image: "/history/6.jpg"
