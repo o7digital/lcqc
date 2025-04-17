@@ -5,7 +5,7 @@ layout: "@layouts/LayoutOneCol.astro"
 items:
 - image: "/mar-y-cielo/1.jpeg"
 - image: "/mar-y-cielo/2.jpeg"
-- image: "/mar-y-cielo/3.jpg"
+- image: "/mar-y-cielo/3.jpeg"
 - image: "/mar-y-cielo/4.jpeg"
 - image: "/mar-y-cielo/4.jpg"
 - image: "/mar-y-cielo/5.jpg"
